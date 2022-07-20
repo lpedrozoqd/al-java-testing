@@ -19,7 +19,7 @@ class PasswordUtilTest {
 
     @Test
     public void weak_when_has_letters_and_numbers(){
-        assertEquals(MEDIUM, PasswordUtil.accessPassword("abcdefgh123"));
+        assertEquals(MEDIUM, PasswordUtil.accessPassword("abcdefgh124"));
     }
 
 
